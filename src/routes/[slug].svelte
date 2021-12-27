@@ -17,7 +17,7 @@
        export let page
 </script>
 <svelte:head>
-    <title>Sparkles Blog | Welcome</title>
+    <title>Sparkles Blog | {page.title} </title>
 </svelte:head>
 <h1 class="text-4xl font-semibold mb-5">{page.title}</h1>
 <article class="prose">
