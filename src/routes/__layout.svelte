@@ -1,5 +1,11 @@
 <script>
+	import Nav from '$lib/Nav.svelte'
 	import '../app.css';
 </script>
 
-<slot />
+<Nav></Nav>
+
+<main class="container max-w-xl mx-auto px-4">
+
+	<slot />
+</main>
